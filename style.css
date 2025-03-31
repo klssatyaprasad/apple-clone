@@ -1,0 +1,947 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    max-width: 100%;
+
+    overflow-x: hidden;
+
+}
+
+ul li {
+    list-style: none;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    color: rgb(108, 108, 108);
+    display: flex;
+    align-items: center;
+}
+
+ul li a {
+    color: rgb(108, 108, 108);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a:hover {
+    color: white;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.858);
+    position: sticky ;
+    top: 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+main .first {
+    background-image: url(source/probanner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 89vh;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.first .txt {
+    width: 100%;
+    height: 15vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.txt :first-child {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 35px;
+    color: white;
+}
+
+.txt :nth-child(2) {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    color: white;
+    margin-top: 10px;
+}
+
+.txt .firstbtn {
+    margin-top: 10px;
+}
+
+.txt .firstbtn :nth-child(1) {
+    width: 120px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.txt .firstbtn :nth-child(2) {
+    width: 80px;
+    height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: #0071e3;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    cursor: pointer;
+}
+
+.txt .firstbtn :nth-child(2):hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+.second-bn {
+    background-image: url("source/2nd banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 89vh;
+    margin-top: 12px;
+}
+
+.second-bn .txt-2bn {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.second-bn .txt-2bn :nth-child(1) {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+}
+
+.second-bn .txt-2bn :nth-child(2) {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    padding-top: 25px;
+}
+
+.second-bn .btns-2bn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.second-bn .btns-2bn :nth-child(1) {
+    width: 140px;
+    height: 45px;
+    background-color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.second-bn .btns-2bn :nth-child(2) {
+    width: 85px;
+    height: 45px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.second-bn .btns-2bn :nth-child(2):hover {
+    background-color: white;
+    color: black;
+}
+
+.third-bn {
+    background-image: url("source/watch banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    text-align: center;
+    margin-top: 12px;
+
+}
+
+.third-bn .txt-3bn {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-bn .txt-3bn div {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    color: white;
+    padding-top: 10px;
+}
+
+.third-bn .btns-3bn {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.third-bn .btns-3bn :nth-child(1) {
+    width: 140px;
+    height: 45px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.third-bn .btns-3bn :nth-child(2) {
+    width: 85px;
+    height: 45px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: #0071e3;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    cursor: pointer;
+}
+
+.third-bn .btns-3bn :nth-child(2):hover {
+    background-color: #0071e3;
+    color: white;
+}
+.media {
+    display: none;
+}
+@media screen and (max-width: 1068px) {
+    main .first {
+        background-image: url(source/16proresponsive.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .first .txt {
+        width: 100%;
+        height: 15vh;
+        font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 35px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        top: 400px;
+    }
+
+    .second-bn {
+        background-image: url(source/16responsive.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh;
+        margin-top: 12px;
+    }
+
+    .third-bn {
+        background-image: url(source/ultraresponsive.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+        width: 100%;
+        height: 89vh;
+        margin-top: 12px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr !important;
+    }
+    
+}
+@media screen and (max-width: 1068px){
+    .media {
+        display: flex;
+        align-items: center;
+        gap: 15px; 
+    }
+
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav ul .media {
+        
+        position: absolute;
+        top: 0px;
+    }
+    .up{
+        display: none;
+    }
+}
+
+.grid {
+    margin: 10px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6px;
+    column-gap: 6px;
+}
+
+.item {
+    width: 100%;
+
+    height: 98vh;
+
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    object-position: center;
+}
+
+.grid .item1 {
+    background-image: url(source/wwdc\ banner.jpg);
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.item1 .txt-grid1 {
+    width: 100%;
+    height: 20vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.item1 .txt-grid1 button {
+    margin-top: 15px;
+    width: 120px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.grid .item2 {
+    background-image: url(source/mac\ grid\ banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    cursor: pointer;
+}
+
+.item2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item2 .txt-grid2 {
+    width: 100%;
+    height: 15vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.txt-grid2 .btnsgrid-2 {
+    margin-top: 10px;
+}
+
+.txt-grid2 .btnsgrid-2 :nth-child(1) {
+    width: 120px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.txt-grid2 .btnsgrid-2 :nth-child(2) {
+    width: 80px;
+    height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: #0071e3;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    cursor: pointer;
+}
+
+.txt-grid2 .btnsgrid-2 :nth-child(2):hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+.grid .item3 {
+    background-image: url(source/ipadbangrid.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    cursor: pointer;
+}
+
+.item3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.item3 .txt-grid3 {
+    width: 100%;
+    height: 15vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.txt-grid3 img {
+    width: 200px;
+}
+
+.txt-grid3 .grid-btns3 {
+    margin-top: 10px;
+}
+
+.txt-grid3 .grid-btns3 :nth-child(1) {
+    width: 120px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.txt-grid3 .grid-btns3 :nth-child(2) {
+    width: 80px;
+    height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: #0071e3;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    cursor: pointer;
+}
+
+.txt-grid3 .grid-btns3 :nth-child(2):hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+.item4 {
+    background-image: url(source/baseballgrid.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.item4 .txt-grid4 {
+    width: 100%;
+    height: 20vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    color: white;
+}
+
+.txt-grid4 .grid-btns4 button {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: black;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.txt-grid4 :first-child {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.txt-grid4 :nth-child(2) {
+    width: 500px;
+}
+
+.item5 {
+    background-image: url(source/tradeingrid.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.item5 .txt-grid5 {
+    width: 100%;
+    height: 20vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    color: rgb(3, 2, 2);
+}
+
+.txt-grid5 .grid-btns5 button {
+    width: 180px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.txt-grid5 :first-child {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.item6 {
+    background-image: url(source/cardgrid.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    cursor: pointer;
+}
+
+.txt-grid6 :first-child {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.item6 .txt-grid6 {
+    width: 100%;
+    height: 20vh;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 110px;
+    color: rgb(3, 2, 2);
+}
+
+.txt-grid6 .grid-btns6 button {
+    width: 180px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.txt-grid6 .grid-btns6 :nth-child(1) {
+    width: 120px;
+    height: 40px;
+    background-color: #0071e3;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.txt-grid6 .grid-btns6 :nth-child(2) {
+    width: 120px;
+    height: 40px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 25px;
+    color: #0071e3;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 30px;
+    border: 1px solid #0071e3;
+    cursor: pointer;
+}
+
+.txt-grid6 .grid-btns6 :nth-child(2):hover {
+    background-color: #0071e3;
+    color: white;
+}
+
+@keyframes moveSlide {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slide {
+    margin: 10px 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    background-repeat: repeat-x;
+}
+
+.slidebox {
+    width: 20%;
+    height: 200px;
+    flex-shrink: 0;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    background-position: 0 0;
+    overflow: hidden;
+    animation: moveSlide 10s linear infinite;
+}
+
+.slide :first-child {
+    background-image: url(source/animation\ 1.jpg);
+
+}
+
+.slide :nth-child(2) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(3) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(4) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(5) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(6) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(7) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(8) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(9) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.slide :nth-child(10) {
+    background-image: url(source/animation\ 1.jpg);
+}
+
+.footpara {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    color: rgb(108, 108, 108);
+    width: 60%;
+    max-width: 60%;
+    max-height: 60vh;
+    margin: auto;
+    height: 60vh;
+
+}
+
+.footline {
+    height: 1px;
+    background-color: rgb(108, 108, 108);
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 60vh;
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    gap: 45px;
+}
+
+.inf ul li {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    color: rgb(108, 108, 108);
+}
+
+.moreways {
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    color: rgb(108, 108, 108);
+}
+
+.footline2 {
+    margin-top: 10px;
+    height: 1px;
+    background-color: rgb(108, 108, 108);
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
+.footer2 {
+    width: 60%;
+    max-width: 60%;
+    margin: auto;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 25px;
+    color: rgb(108, 108, 108);
+}
